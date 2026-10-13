@@ -1,0 +1,24 @@
+fn_save data/Si_sc1x1x1_k1x1x1_M3_L1.out
+is_qpu  0
+shots   None
+
+N  8
+Ne 8
+
+nkpts 1
+kpts
+[[0. 0. 0.]]
+
+M 3
+L 1
+
+opt0      lion
+lr0       0.1
+tol0      5
+max_itr0  100
+
+opt1      adam
+lr1       0.2
+tol1      0.0001
+max_itr1  1000
+
